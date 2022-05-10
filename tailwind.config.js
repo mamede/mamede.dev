@@ -27,6 +27,10 @@ module.exports = {
       boxShadow: {
         animate: 'inset 0 0 0 6px hsl(0deg 0% 100% / 30%)',
       },
+      backgroundColor: {
+        content: '#444',
+        menu: '#222',
+      },
     },
   },
   plugins: [],

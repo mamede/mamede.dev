@@ -3,7 +3,7 @@ import React from 'react';
 
 export function Menu() {
   return (
-    <ul className="absolute py-4 w-[86px] left-0 right-auto bg-stone-800 top-0 bottom-0 rounded-none shadow-2xl">
+    <ul className="absolute py-4 w-[86px] left-0 right-auto bg-menu top-0 bottom-0 rounded-none drop-shadow-xl">
       <li className="list-item items-center text-center">
         <a
           href="#home"

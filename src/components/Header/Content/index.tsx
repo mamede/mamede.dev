@@ -11,7 +11,7 @@ import { SocialMedia } from '../SocialMedia';
 
 export function Content() {
   return (
-    <div className="bg-stone-800 relative w-full max-w-sm min-h-screen">
+    <div className="bg-content relative w-full max-w-sm min-h-screen">
       <div className="inline-block float-left w-full max-w-sm h-full max-h-[80vh] text-center pt-16 pr-8 pb-11 pl-8 overflow-auto">
         <div className="relative w-44 mt-0 mx-auto mb-8 z-10">
           <img
@@ -25,7 +25,9 @@ export function Content() {
           <h2 className="text-3xl font-semibold	text-neutral-100 my-0 mt-1 mb-2">
             Felipe Mamede
           </h2>
-          <h4 className="text-lg font-light text-[#bbb] my-1 mx-0">Web Designer</h4>
+          <h4 className="text-lg font-light text-[#bbb] my-1 mx-0">
+            Desenvolvedor Front end e Mobile
+          </h4>
         </div>
         <SocialMedia />
       </div>
