@@ -1,0 +1,23 @@
+{
+  "nlw-component": {
+    "prefix": "mfc",
+    "body": [
+      "// REACT",
+      "import React from 'react';",
+      "",
+      "// ASSETS",
+      "",
+      "// COMPONENTS",
+      "",
+      "// TYPES",
+      "",
+      "export function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <div>Hello World</div>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "Create a Component"
+  }
+}
