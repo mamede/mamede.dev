@@ -1,6 +1,8 @@
 // REACT
 import React from 'react';
 
+import { SocialMedia } from '../SocialMedia';
+
 // ASSETS
 
 // COMPONENTS
@@ -19,10 +21,13 @@ export function Content() {
           />
           <div className="absolute rounded-animated animate-avatar top-0 bottom-0 left-0 right-0 shadow-animate" />
         </div>
-        <div className="header-titles">
-          <h2>Alex Smith</h2>
-          <h4>Web Designer</h4>
+        <div className="font-display">
+          <h2 className="text-3xl font-semibold	text-neutral-100 my-0 mt-1 mb-2">
+            Felipe Mamede
+          </h2>
+          <h4 className="text-lg font-light text-[#bbb] my-1 mx-0">Web Designer</h4>
         </div>
+        <SocialMedia />
       </div>
     </div>
   );
