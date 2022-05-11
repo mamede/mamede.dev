@@ -31,6 +31,21 @@ module.exports = {
         content: '#444',
         menu: '#222',
       },
+      minHeight: {
+        1: '1px',
+      },
+      maxWidth: {
+        image: '240px',
+      },
+      maxHeight: {
+        image: '240px',
+      },
+      gridTemplateColumns: {
+        portfolio: 'repeat(auto-fit, 240px)',
+      },
+      gridAutoColumns: {
+        portfolio: '240px',
+      },
     },
   },
   plugins: [],
