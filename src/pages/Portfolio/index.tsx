@@ -1,5 +1,6 @@
 // REACT
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { ContentContainer } from '../../components/ContentContainer';
 import { TopNavigation } from '../../components/ContentContainer/TopNavigation';
@@ -45,14 +46,14 @@ export function Portfolio() {
                 data-groups='["category_all", "category_detailed"]'
               >
                 <div className="border-4 border-solid border-white w-60 h-60">
-                  <a href="#asdada">
+                  <Link to="/portfolio/projects/teste">
                     <img
                       src="https://lmpixels.com/demo/breezycv/darkfw/1/img/portfolio/2.jpg"
                       alt="Media Project 2"
                       title=""
                       className="relative block w-full"
                     />
-                  </a>
+                  </Link>
                 </div>
 
                 <h4 className="block py-4 px-0 text-base relative text-white font-semibold font-display">
