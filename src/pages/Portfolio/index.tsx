@@ -8,7 +8,7 @@ export function Portfolio() {
   return (
     <ContentContainer>
       <TopNavigation title="Portfolio" />
-      <div className="flex flex-col items-center h-full w-full mt-0 ml-0 mx-auto p-6 min-h-screen">
+      <div className="flex flex-col items-center w-full m-0 p-6 h-[calc(100vh-64px)]">
         <div className="relative w-full min-h-1 px-4">
           {/* Portfolio Content */}
           <div className="block">

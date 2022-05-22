@@ -7,8 +7,8 @@ import { Content } from './Content';
 export function Profile() {
   return (
     <div
-      className="w-96 min-w-fit min-h-screen m-0 ml-16 bg-gray-800
-    overflow-hidden shadow-lg pt-16 pr-8 pb-11 pl-8 shadow-lg"
+      className="w-96 bg-gray-800 overflow-hidden shadow-lg 
+      pt-16 pr-8 pb-11 pl-8"
     >
       <Content />
       <div
@@ -23,11 +23,7 @@ export function Profile() {
         </h4>
       </div>
       <SocialMedia />
-      <div
-        className="w-96 absolute bottom-0 left-0 text-[#bbb]
-      px-3 pt-1 pb-4 text-xs text-center ml-16
-      "
-      >
+      <div className=" text-[#bbb] text-xs text-center">
         © {new Date().getFullYear()} All rights reserved.
       </div>
     </div>
