@@ -1,7 +1,15 @@
 import React from 'react';
 
-import { Header } from './components/Header';
+import { Profile } from './components/Profile';
+import { Sidebar } from './components/Sidebar/';
+import { Portfolio } from './pages/Portfolio';
 
 export function App() {
-  return <Header />;
+  return (
+    <div className="flex">
+      <Sidebar />
+      <Profile />
+      <Portfolio />
+    </div>
+  );
 }
