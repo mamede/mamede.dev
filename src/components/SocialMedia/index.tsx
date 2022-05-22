@@ -9,10 +9,10 @@ export function SocialMedia() {
         target="_blank"
         rel="noreferrer"
       >
-        <FaLinkedin size={32} color="#707070" />
+        <FaLinkedin size={32} />
       </a>
       <a href="https://github.com/mamede" target="_blank" rel="noreferrer">
-        <FaGithub size={32} color="#707070" />
+        <FaGithub size={32} />
       </a>
     </div>
   );
